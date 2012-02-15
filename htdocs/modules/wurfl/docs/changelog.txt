@@ -1,0 +1,70 @@
+==============================================
+ 2011/01/18 23:17:01 Version 2.00 BETA   ICMS
+==============================================
+ - Removed /images/import.png (wishcraft)
+ - Removed /images/thumbs.db (wishcraft)
+ - Removed /images/wurfl_slogo.png (wishcraft)
+ - Removed GLOBAL xoops_loadLanguage and replace with language loading code (Wishcraft)
+ - Renamed /preloads/core.php to /preloads/wurfltheme.php (wishcraft)
+ - Renamed /xoops_version.php to /icms_version.php (wishcraft)
+ - Moved /templates/wurfl_cpanel_*.html to /templates/admin/wurfl_cpanel_*.html (wishcraft)
+ - Added /images/wurfl_icms_logo.png (wishcraft)
+ - Added /images/wurfl_big_icon.png (wishcraft)
+ - Added /images/wurfl_small_icon.png (wishcraft)
+ - Added /class/moduleclasses/ XOOPS 2.5 Admin GUI Classes added and changed to ICMS Symmetic Classes [Taken from /Frameworks/moduleclasses] (Wishcraft)
+ - Added /class/file/ XOOPS 2.5 XoopsFile Classes added and changed to ICMS Symmetic Classes (IcmsFile & IcmsFileHandler) [Taken from /class/file/] (Wishcraft)
+ - Added /class/cache/ XOOPS 2.5 XoopsCache Classes added and changed to ICMS Symmetic Classes (IcmsCache) [Taken from /class/cache/] (Wishcraft)
+ - Added /class/utility/ XOOPS 2.5 XoopsUtility Classes added and changed to ICMS Symmetic Classes (IcmsUtility) [Taken from /class/utility/] (Wishcraft)
+ - Added /icms_version.php set_time_limit() added for install, removal and update of module - ICMS Timeout error - Legacy DB Classes (Wishcraft)
+ - Added /icms_version.php $modinfo['modname'] - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['status_version'] = "Beta" - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['status'] = "Beta" - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['developer_email'] - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['developer_website_url'] - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['developer_website_name'] - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['people']['developers'] - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['people']['testers'] - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['people']['translators'] - ICMS Variable Added (Wishcraft)
+ - Added /icms_version.php $modinfo['people']['documenters'] - ICMS Variable Added (Wishcraft)
+ - Changed /class/*.php changed structure of classes to use icms_ipf_Handler & icms_core_Object (Wishcraft)
+ - Changed /admin/menu.php menu constants for User Agent Spy control panel added (Wishcraft)
+ - Changed GLOBAL XoopsCache:: changed to IcmsCache:: (Wishcraft)
+ - Changed GLOBAL $GLOBALS['xoopsUser'] changed to icms::$user (Wishcraft)
+ - Changed GLOBAL xoops_gethandler('...') changed to icms::handler('icms_...') (Wishcraft)
+ - Changed GLOBAL $GLOBALS['xoops']->path( changed to (ICMS_ROOT_PATH. (Wishcraft)
+ - Changed GLOBAL XOOPS_VAR_PATH changed to ICMS_TRUST_PATH (Wishcraft)
+ - Changed GLOBAL XOOPS_ROOT_PATH changed to ICMS_ROOT_PATH (Wishcraft)
+ - Changed GLOBAL XOOPS_URL changed to ICMS_URL (Wishcraft)
+ - Changed GLOBAL $GLOBALS['xoopsConfig'] to $GLOBALS['icmsConfig'] (Wishcraft)
+ - Changed GLOBAL XOOPS to ICMS (Wishcraft)
+ - Changed GLOBAL xoops to icms [except API function names] (Wishcraft)
+ 
+==============================================
+ 2011/01/18 23:17:01 Version 2.02 STABLE XOOPS
+==============================================
+ - Added /preloads/core.php User Agent Spy stored in cache (wishcraft)
+ - Added /templates/wurfl_cpanel_list_useragents.html User Agent Spy control panel template (wishcraft)
+ - Added /admin/useragents.php Code for User Agent Spy control panel added (Wishcraft)
+ - Changed /language/english/modinfo.php menu constants & spelling error in style.css path (Wishcraft)
+ - Changed /language/english/admin.php menu constants User Agent Spy control panel (Wishcraft)
+ - Changed /admin/menu.php menu constants for User Agent Spy control panel added (Wishcraft)
+ 
+  ============================================
+ 2011/12/29 11:34:00 Version 2.01 STABLE XOOPS
+==============================================
+ - Added System Admin Templates all Classes  (Wishcraft)
+ - Added System Admin Executives all Classes  (Wishcraft)
+ - Added WurflFormSelectDevice() /include/formselectdevice.php (Unused)  (Wishcraft)
+ - Added Form Languages /langauge/english/forms.php (Wishcraft)
+ - Added Module Update /include/update.php (Wishcraft)
+  
+==============================================
+ 2011/12/23 3:52:00 Version 1.30 STABLE XOOPS
+==============================================
+ - Changed ICMS 2.5.x Admin GUI Language Constants for Statistics language/english/admin.php  (Wishcraft)
+ - Changed wurfl_devices table - Added manufacture, model and series to database - sql/mysql.php  (Wishcraft)
+ - Added ICMS 2.5.x Admin GUI  (Wishcraft)
+ - Added Admin Menu Language Constants for new Preferences language/english/modinfo.php (GUI)  (Wishcraft)
+ - Added header for control panel and associate PHP files admin/header.php (Wishcraft)
+ - Added upgrade path for system module include/upgrade.php (Wishcraft)
+ - Added device select form object for system & user include/formselectdevice.php (Wishcraft)
